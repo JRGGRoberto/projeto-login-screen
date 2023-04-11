@@ -15,7 +15,7 @@
 }
 
 body, html{
-    background-color: #ffc400;
+    background-color: #f4cc4b;
     height: 100vh;
     width: 100vw;
 }
@@ -61,4 +61,77 @@ div#formulario > h1{
 
 div#formulario > p{
     font-size: 0.8em;
+}
+
+form  div{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+form div.campo{
+    background-color: #9e7b07;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+}
+
+form div.senha{
+    background-color: #9e7b07;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+}
+
+form  input[type=email]{
+    height: 25px;
+
+}
+
+form  input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-image: linear-gradient(to bottom, #e5b209, #8b560bdc);
+    border:none;
+    color:white;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #372b03;
+}
+
+form  input[type=submit]:hover{
+    background-image: linear-gradient(to bottom, #9e7b07, #633d08dc);
+    cursor:pointer;
+    color: white
+}
+
+form input[type=button]{
+    display: block;
+    font-size: 1em;
+    width: 80%;
+}
+
+form a.botao{
+    display:block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-image: linear-gradient(to bottom, #ffc60b, #f19514dc);
+    border: 1px solid #ffc60b;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+form a.botao{
+    color: #372b03;
+    font-weight: bold;
+}
+
+
+form a.botao:hover{
+    color:white
 }
