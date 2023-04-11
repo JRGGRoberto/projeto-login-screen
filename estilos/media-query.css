@@ -7,6 +7,7 @@
 
     section#login{
         width: 700px;
+        height: 400px;
     }
 
     section#login > div#imagem{
@@ -28,6 +29,20 @@
 
     div#formulario > p{
         font-size: 1.2em;   
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    form div.campo > input{
+        background-color: #efc848;
+        border-radius: 5px;
+        width: 90%;
+    }
+
+    form div.senha > input{
+        background-color: #efc848;
+        border-radius: 5px;
+        width: 90%;
     }
 }
 
@@ -38,6 +53,7 @@
 
     section#login{
         width: 950px;
+        height: 390px;
     }
 
     section#login > div#imagem{
@@ -58,6 +74,19 @@
 
     div#formulario > p{
         font-size: 1.2em;   
-        padding-left: 5px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    form div.campo > input{
+        background-color: #efc848;
+        border-radius: 5px;
+        width: 90%;
+    }
+
+    form div.senha > input{
+        background-color: #efc848;
+        border-radius: 5px;
+        width: 90%;
     }
 }
