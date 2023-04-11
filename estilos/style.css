@@ -73,8 +73,8 @@ form div.campo > input{
     background-color: #efc848;
     border-radius: 5px;
     width: calc(100% - 49);
-    transform: translateY(-10px);
     height: 40px;
+    transform: translateY(-10px);
 }
 
 
@@ -82,8 +82,8 @@ form div.senha > input{
     background-color: #efc848;
     border-radius: 5px;
     width: calc(100% - 49);
-    transform: translateY(-10px);
     height: 40px;   
+    transform: translateY(-10px);
 }
 
 
